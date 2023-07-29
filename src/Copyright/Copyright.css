@@ -1,0 +1,12 @@
+.footer {
+    background-color: #111111;
+    color: #ccc;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 14px;
+    line-height: 1.33;
+  }
+.footer img{
+    width: 8.5rem;
+    height: auto;
+}  

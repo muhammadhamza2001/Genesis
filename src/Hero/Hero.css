@@ -1,0 +1,30 @@
+.align{
+    text-align: left;
+    position: relative;
+
+}
+.carousel-caption {
+    top: 10% !important;
+}
+.carousel-content h2{
+    font-size:36px!important ;
+}
+.carousel-content p{
+    font-size:18px!important ;
+    margin: 0;
+}
+@media only screen and (max-width: 600px)  {
+    .carousel-content h2{
+        font-size:20px!important ;
+    }
+    .carousel-content p{
+        font-size:16px!important ;
+    }
+    .carousel-caption {
+        top: 0% !important;
+    }
+    .row>* {
+        width: 40%;
+    }
+
+}

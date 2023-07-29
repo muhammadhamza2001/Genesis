@@ -1,0 +1,79 @@
+.App{
+    background-color: #151515;
+    padding: 100px 0;
+}
+.toggleouter{
+    background-color: black;
+}
+.content ul li{
+    list-style-type: none;
+    padding: 5px 0;
+}
+.content{
+    padding: 30px 0;
+}
+.content ul{
+  padding-left: 0px !important;
+    
+}
+.content ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+    
+}
+
+.content ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+.toggle-button button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 0;
+}
+.heading{
+    font-size: 16px !important;
+    font-weight: 500;
+}
+.arrow {
+    margin-left: auto;
+}
+
+@media only screen and (min-width: 769px)  {
+    .toggle-button button{
+        display: none !important;
+    }
+    .lines{
+        display: none ;
+       }
+  
+    
+}
+@media only screen and (max-width: 768px)  {
+    
+    .heading{
+        display: none;
+    }
+    .App{
+        background-color: #151515;
+        padding: 20px 0;
+    }
+    .toggle-button button{
+        padding: 15px 0;
+    }
+    .content{
+        padding: 10px 0;
+    }
+   .lines{
+    color: white;
+    height: 2px;
+   }
+   .arrow{
+    position: absolute;
+    right: 10%;
+   }
+   
+}

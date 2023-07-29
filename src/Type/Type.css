@@ -1,0 +1,145 @@
+.discover button{
+    width: 100%;
+    margin: auto;
+    background: transparent;
+    padding: 10px !important;
+    font-size: 16px;    
+    border-color: white;
+    color: white !important;
+    cursor: pointer;
+    background-color: rgb(15, 14, 14) !important;
+    
+}
+.discover{
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.sadanouter{
+    background-color: black !important;
+    padding: 30px 0;
+}
+.cardout{
+    background-color: #181818 !important;
+    color: rgb(139, 139, 139) !important;
+    padding: 30px;
+    margin: 20px;
+}
+.card{
+    padding: 0;
+    box-shadow: none !important;
+    border: 4px;
+    border-color: black !important;
+   border-radius: 0;
+   background-color: black !important;
+
+}
+.slick-next:before {
+    display: none;
+}
+.slick-prev:before {
+    display: none;
+}
+  
+/* Button.css */
+.discover button{
+   
+   border: 1px solid white !important;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.9s ease;
+    cursor: pointer;
+  }
+  
+  .discover button:hover {
+    background-color: white; /* Change this to the color you want on hover */
+    color: black !important;
+  }
+  
+  .discover button span{
+    position: relative;
+    z-index: 0;
+    
+  }
+  
+  .discover button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white; /* Change this to the color you want to fill on hover */
+    color: black !important;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.9s ease;
+    z-index: 0;
+  }
+  
+  .discover button:hover::before {
+    transform: scaleX(1);
+  }
+  
+.group{
+    text-align: center;
+}
+.group button{
+    background: none;
+    border: none;
+    color: grey;
+    border-right: 2px solid black;
+    cursor: pointer;
+    padding: 20px;
+}
+.allcars{
+    background-color: black;
+    padding: 80px 0;
+}
+.our{
+    color: white !important;
+}
+.our h2{
+    font-size: 40px;
+    line-height: 3.2rem;
+    font-family: "genesis-head-office-light", sans-serif;
+    font-weight: 100;
+
+}
+.our p{
+    font-family: "genesis-text-office", sans-serif;
+    line-height: 1.32;
+    font-size: 18px;
+}
+.carddata{
+    text-align: left;
+}
+
+.activeButton {
+    border-bottom: 2px solid white !important; /* Set your desired background color for the active button */
+    color: white !important; /* Set the desired text color for the active button */
+    /* Add any other styles you want for the active button */
+  }
+
+
+  @media only screen and (max-width: 768px)  {
+    .allcars{
+        background-color: black;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .our h2{
+      font-size: 30px;
+      line-height: 3.2rem;
+      font-family: "genesis-head-office-light", sans-serif;
+      font-weight: 100;
+  
+  }
+  .our p{
+      font-family: "genesis-text-office", sans-serif;
+      line-height: 1.32;
+      font-size: 14px;
+  }
+  }
+ 
+  

@@ -1,0 +1,22 @@
+.navbg{
+  background-color: black !important;
+  
+}
+.linkssnav{
+  color: grey !important;
+  font-size: 14px;
+  padding: 20px 30px !important;
+}
+.linkssnav:hover{
+  color: white !important;
+}
+.search{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.logonav img{
+  width: 80%!important ;
+}
+.navbar-toggler-icon {
+  background-image: url(../menu.svg) !important;
+}

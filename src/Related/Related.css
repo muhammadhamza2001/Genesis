@@ -1,0 +1,54 @@
+.heading{
+    font-size: 22px !important;
+}
+.description{
+    color: #262626 !important;
+    line-height: 1.556;
+    font-size: 14px !important;
+}
+.btnn{
+    color:#262626 !important;
+    font-weight: bold !important;
+}
+.btnn:hover{
+    background: transparent !important;
+    color: black;
+}
+.cardss{
+    box-shadow: none !important;
+}
+
+
+.btnn {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0px; /* Adjust the spacing between the text and the underline */
+    cursor: pointer;
+  }
+  
+  .btnn::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000; /* Change the color of the underline */
+    transition: width 0.5s ease; /* Apply a smooth transition */
+  }
+  
+  .btnn:hover::after {
+    width: 100%; /* Expand the underline to the full width on hover */
+  }
+  
+.right{
+    padding-left: 0px;
+    
+}
+.btnn:hover .right{
+    padding-left: 5px;
+    transition: 0.2s ease;
+}
+.related-outer{
+    padding: 50px 0;
+}

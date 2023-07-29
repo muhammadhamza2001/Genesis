@@ -1,0 +1,44 @@
+
+  .share{
+    font-size: 20px !important;
+    margin: 0 10px;
+    color: grey !important;
+  }
+  .share:hover{
+    color:white !important;
+  }
+  .toggle-container{
+    background-color: #111111 !important;
+    padding: 20px 0;
+  }
+  body{
+    margin: 0;
+    
+  }
+  .sha{
+    color: white;
+    font-size: 20px;
+  }
+  .topbtn{
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+  }
+  .topbtn a{
+    text-decoration: none;
+    color: white;
+  }
+  .toggle-button{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+  }
+  @media only screen and (max-width: 768px)  {
+    .sha{
+  
+        display: none !important;
+      }
+  }
